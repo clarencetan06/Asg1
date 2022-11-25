@@ -1,10 +1,24 @@
 .header{
-  padding: 80px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-}
-.header h1 {
-    font-size: 40px;
-}
-  
+	padding: 80px;
+	text-align: center;
+	background: #1abc9c;
+	color: white;
+  }
+  .header h1 {
+	  font-size: 40px;
+  }
+  .navBar a {
+	  float: left;
+	  display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 20px;
+		text-decoration: none;
+  }
+  .navBar a.right{
+	  float: right;
+  }  
+  .navBar a.Hover{
+	  background-color: #ddd;
+	  color: black;
+  }
