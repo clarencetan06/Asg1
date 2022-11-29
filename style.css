@@ -188,8 +188,12 @@ input[type=text], input[type=password] {
 	border: 1px solid #ccc;
 	box-sizing: border-box;
 }
+input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
 button {
-	background-color: #04AA6D;
+	background-color: black;
 	color: white;
 	padding: 14px 20px;
 	margin: 8px 0;
@@ -228,8 +232,25 @@ span.psw {
 	display: block;
 	float: none;
 }
-.cancelbtn {
+.cancelbtn, .cancelbtnSIGNUP, .signupbtn {
 	width: 100%;
 }
 }
 /* sign up */
+hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+}
+.cancelbtnSIGNUP {
+	padding: 14px 20px;
+	background-color: #f44336;
+}
+.cancelbtnSIGNUP, .signupbtn {
+	float: left;
+	width: 50%;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
