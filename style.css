@@ -40,6 +40,7 @@ background-color: #333;
 	background-color: #ddd;
 	color: black;
 }
+/* dropdown socials */
 .dropdown {
 	float: left;
 	overflow: hidden;
@@ -121,6 +122,7 @@ to {opacity: 1}
 	width: 100%;
 }
 }
+/* social bar */
 .socialBar {
 	background-color: black;
 	text-align: center;
@@ -174,8 +176,11 @@ to {opacity: 1}
 }
 /* ABOUT */
 .aboutGame h1{
-    color:white;
+    color:black;
+	font-weight: bold;
+	font-size: 50px;
 }
+
 /* LOGIN */
 form {
 	border: 3px solid #f1f1f1;
@@ -253,4 +258,10 @@ hr {
 	content: "";
 	clear: both;
 	display: table;
+}
+/* news */
+.news h1{
+    color:black;
+	font-weight: bold;
+	font-size: 50px;
 }
