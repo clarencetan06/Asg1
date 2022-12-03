@@ -16,15 +16,15 @@ img {vertical-align: middle;}
 	font-weight: bold;
 }
 .header h1{
-	font-size: 50px;
+	font-size: 45px;
 	font-weight: bold;
 }
 .header h4{
 	font-weight: bold;
 }
 .navBar{
-overflow: hidden;
-background-color: #333;
+	overflow: hidden;
+	background-color: #333;
 }
 .navBar a {
 	float: left;
@@ -35,6 +35,7 @@ background-color: #333;
 	text-decoration: none;
 }
 .navBar a.right{
+	color:white;
 	float: right;
 }  
 .navBar a:Hover, .dropdown:hover .dropbtn {
@@ -176,49 +177,27 @@ to {opacity: 1}
 	background: white;
 }
 /* ABOUT */
-/*.aboutGame h1{
+.aboutGame h1{
 	font-weight: bold;
 	font-size: 40px;
 	text-align: center;
 	color: white;
-}*/
-/*.aboutGameLeft h4{
+}
+.aboutGame h4{
 	font-weight: bold;
 	font-size: 15px;
 	text-align: center;
 	color: white;
-} */
+} 
 .aboutGamePic {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
 }
-.split {
-	height: 100%;
-	width: 50%;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	overflow-x: hidden;
-	padding-top: 20px;
-}
-  
-.left {
-	left: 0;
-}
-  
-.right {
-	right: 0;
-}
-.centered {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+.aboutAgent{
 	text-align: center;
 }
-
 /* LOGIN */
 form {
 	border: 3px solid #f1f1f1;
@@ -284,6 +263,9 @@ hr {
 	border: 1px solid #f1f1f1;
 	margin-bottom: 25px;
 }
+.signupbtn{
+	background-color: green;
+}
 .cancelbtnSIGNUP {
 	padding: 14px 20px;
 	background-color: #f44336;
@@ -302,4 +284,13 @@ hr {
     color:black;
 	font-weight: bold;
 	font-size: 50px;
+}
+.news {
+	text-align: center;
+	background-image: url(images/download10.webp);
+	background-size: cover;
+	padding: 1px;
+}
+.news h1 {
+	color:white;
 }
