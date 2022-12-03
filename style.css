@@ -177,16 +177,20 @@ to {opacity: 1}
 	background: white;
 }
 /* ABOUT */
-.aboutGame h1{
+.about {
+	background-image: url(images/download6.png);
+	background-size: cover;
+	padding: 1px;
+	text-align: center;
+}
+.aboutGame h1, .aboutAgent h1, .aboutMap h1{
 	font-weight: bold;
 	font-size: 40px;
-	text-align: center;
 	color: white;
 }
-.aboutGame h4{
+.aboutGame h4, .aboutMap h4{
 	font-weight: bold;
 	font-size: 15px;
-	text-align: center;
 	color: white;
 } 
 .aboutGamePic {
@@ -194,10 +198,9 @@ to {opacity: 1}
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 100);
 }
-.aboutAgent{
-	text-align: center;
-}
+
 /* LOGIN */
 form {
 	border: 3px solid #f1f1f1;
