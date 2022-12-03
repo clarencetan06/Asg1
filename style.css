@@ -97,7 +97,7 @@ top: 0;
 .dot {
 height: 15px;
 width: 15px;
-margin: 0 2px;
+margin: 10px 2px;
 background-color: #bbb;
 border-radius: 50%;
 display: inline-block;
@@ -188,7 +188,7 @@ to {opacity: 1}
 	font-size: 40px;
 	color: white;
 }
-.aboutGame h4, .aboutMap h4{
+.aboutGame h4, .aboutMap h4, .aboutAgent h4{
 	font-weight: bold;
 	font-size: 15px;
 	color: white;
@@ -200,7 +200,11 @@ to {opacity: 1}
 	width: 50%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 100);
 }
-
+.mapsbtn{
+	margin-top: 20px;
+	width: 30%;
+	background-color:grey;
+}
 /* LOGIN */
 form {
 	border: 3px solid #f1f1f1;
