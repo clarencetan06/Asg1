@@ -10,7 +10,7 @@ img {vertical-align: middle;}
 .header{
 	padding: 20px;
 	text-align: center;
-	background-image: url(val.webp);
+	background-image: url(images/val.webp);
 	background-size: cover;
 	color: white;
 	font-weight: bold;
@@ -200,11 +200,53 @@ to {opacity: 1}
 	width: 50%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 100);
 }
-.mapsbtn{
+.mapsbtn, .agentbtn{
 	margin-top: 20px;
 	width: 30%;
 	background-color:grey;
 }
+.agentbtn{
+	margin-bottom: 10px;
+}
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+} 
+.prev{
+	left: 0;
+}
+  /* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+} 
+  /* On hover, add a grey background color */
+.prev:hover, .next:hover {
+	background-color: #f1f1f1;
+	color: black;
+}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+.text{
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
 /* LOGIN */
 form {
 	border: 3px solid #f1f1f1;
@@ -299,5 +341,35 @@ hr {
 	padding: 1px;
 }
 .news h1 {
-	color:white;
+	color:black;
+}
+.newsbtn{
+	margin-top: 20px;
+	width: 30%;
+	background-color:#bbb;
+	color: black;
+	margin-bottom: 10px;
+}
+.all-browsers {
+	margin: 0;
+	padding: 5px;
+	background-color: #bbb;
+}
+.all-browsers h2{
+	color: white;
+}
+  
+.all-browsers > h1, .browser {
+	margin: 10px;
+	padding: 5px;
+}
+  
+.browser {
+	background: black;
+	color:red
+}
+  
+.browser > h2, p {
+	margin: 4px;
+	font-size: 90%;
 }

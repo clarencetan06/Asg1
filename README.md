@@ -5,8 +5,21 @@ Assignment 1(webpage of game, includes info about the game such as how it works,
 ~has an automatic slideshow of moments when playing the game
 ~has a bar below that has buttons that can download game client, download riot companion app
 ~has socials bar at the bottom
--style.css: style page for main page(index html)
+-about.html:
+
+-news.html:
+
+-signup.html:
+
+-login.html:
+
+-style.css: style page for all pages
 ~has background
-~styling for navbar, download bar, socials bar at the bottom
--jacascript.js: javascript for main page(index html)
+~styling for everything, all pages
+-normalize.css
+~required
+
+-javascript.js: javascript for main page(index html)
 ~made the slideshow automatic, change picture after 5 seconds, cycles all photos forever
+-aboutjavascript.js: javascript for about page(about.html)
+~
