@@ -1,6 +1,11 @@
 # Asg1
 
-Assignment 1(webpage of game, includes info about the game such as how it works, its characters, maps, news, socials and areas to login or sign up with an account, users can also downlaod the game client to start playing)
+Valorantial Website
+This website is a website about a game called Valorantial, this is based on the actual game called Valorant. This website aims to provide users with information about the game such as the maps, the agents, news about the game, as well as the links to the games social websites for example twitter, youtube, etc. The website also shows glimpse of gameplay and features news related to the game, its updates and competitions that involve the game. Users can also sign up and login to their accounts via the website.
+
+This website was aimed to people who seek to play this game and people who currently play this game. This website also aims to attract people to sign up with an account if they dont hv one and to join and play the game.
+For eg, if the user wants to finds out more abouit valorantial, they can go to about valorantial, or they can go to socials and see more about valorantial via the social media platforms.
+Link to pdf of Adobe XD file: https://drive.google.com/file/d/1f9j_neLJuAeCy3KB4BplH3Ha4aFSn_PG/view?usp=share_link
 
 -index html: Main page of website(home in navigation bar)
 ~has an automatic slideshow of moments when playing the game
@@ -42,4 +47,16 @@ Assignment 1(webpage of game, includes info about the game such as how it works,
 -javascript.js: javascript for main page(index html)
 ~made the slideshow automatic, change picture after 5 seconds, cycles all photos forever
 -aboutjavascript.js: javascript for about page(about.html)
-~
+~make the 2 clickable slideshows, change pic upon clicking, cycles all the photos
+
+-testing:
+
+1. clickable slideshow:
+   click on the left or right button, the slides should change to the left or right picture respectively
+2. Login in and sign in form:
+   try to submit or login without typing in any details, there shld be a message that pops out saying please fill out this field
+
+one problem i discovered and am not sure how to fix is that when in mobile view, the background picture for all the pages that have them are not repsonsive
+
+credits:
+i recieved inspiration from the official valorant website(https://playvalorant.com/en-sg/), as well as w3schools(https://www.w3schools.com/)
